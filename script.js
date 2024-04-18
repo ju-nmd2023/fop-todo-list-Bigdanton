@@ -46,6 +46,7 @@ function func_remove(e) {
   e.parentNode.remove();
 }
 
+// function checked
 function func_check(e) {
   let task = e.parentNode.querySelector('.task_name_span').textContent;
   let index = tasks_array.findIndex(item =>  item.task_name === task );
